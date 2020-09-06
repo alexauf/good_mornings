@@ -69,7 +69,7 @@ class YouMotivate:
 		opts.profile = fp
 		# }
 		self.driver = webdriver.Firefox(options=opts,
-		                executable_path='C:\WebDrivers\geckodriver')
+		                executable_path='geckodriver')
 
 
 		print('Firefox Info Loaded succesfully')
